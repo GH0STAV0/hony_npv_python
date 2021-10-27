@@ -8,3 +8,4 @@ RUN apt install -y curl openvpn procps
 
 #ENTRYPOINT ["./honeygain","-tou-accept","-email", "y0shimitsugh0st84@gmail.com","-pass","testpassw0rd","-device","DEVICE_N7smart23bd4afb1ecd"]
 ENTRYPOINT ["tail"]
+CMD ["-f","/dev/null"]
