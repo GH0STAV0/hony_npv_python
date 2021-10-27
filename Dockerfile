@@ -2,7 +2,7 @@ FROM honeygain/honeygain
 #-tou-accept -email CHA3B0N@protonmail.com -pass agoon007 -device DEVICE_N3
 USER root
 RUN mkdir /root/PNP/
-ADD ./PNP/ /root/PNP/
+ADD ./PNP/ /app/
 RUN apt update
 RUN apt install -y curl openvpn procps
 
